@@ -5,7 +5,7 @@ Simple assignments like 4:1 mux or clock divider are not included.
 Solutions may contain errors.
 
 ## ALU
-Build and test a 32-bit ALU that supports AND, OR, ADD, SUB, SLT. Also it needs to check zero and overflow.
+Build and test a 32-bit ALU that supports AND, OR, ADD, SUB, SLT. Also it needs to check zero and overflow.  
 32-bit ALU is constructed with 1-bit ALUs.  
 1-bit alu supports OR, AND, ADD. Also, it has input port 'less' and if op==2'b11, its output is 'less' input value.  
 1-bit ALU that operates to handle MSB part of 32-bit should be little bit different with other 1-bit ALUs because it is related to overflow.  
@@ -20,13 +20,14 @@ Output port: Read_Data(32-bit)
 
 
 ## Basic pipeline
-Build a basic 5-stage pipeline that described in the textbook.
-This pipeline does not include forwarding.
-Checked the operation with testbench and FPGA.
+Build a basic 5-stage pipeline that described in the textbook.  
+Based on MIPS ISA, instructions are hard coded to the instrucion memory.  
+This pipeline does not include forwarding.  
+Checked the operation with testbench and FPGA.  
 
 ## Advanced pipeline
-Add forwarding logic on the basic one.
+Add forwarding logic on the basic one.  
 
 ## Advanced pipeline - 2
-Add JAL, JR on the basic one.
+Add JAL, JR on the basic one.  
 
