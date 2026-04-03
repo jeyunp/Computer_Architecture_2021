@@ -17,3 +17,16 @@ Build and test a memory array with verilog.
 Width 32bit, 128 line, 9bit address.
 Input port: MemAddr(9-bit), MemRead(1-bit), MemWrite(1-bit), Write_Data(32-bit)  
 Output port: Read_Data(32-bit)  
+
+
+## Basic pipeline
+Build a basic 5-stage pipeline that described in the textbook.
+This pipeline does not include forwarding.
+Checked the operation with testbench and FPGA.
+
+## Advanced pipeline
+Add forwarding logic on the basic one.
+
+## Advanced pipeline - 2
+Add JAL, JR on the basic one.
+
